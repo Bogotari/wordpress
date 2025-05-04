@@ -65,3 +65,61 @@ h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
     padding-top: var(--wp--preset--spacing--40); /* Increased from 30 to 40 */
     padding-bottom: var(--wp--preset--spacing--40); /* Increased from 30 to 40 */
 }
+
+/* Updated styles for header and navigation links to give a blog-like appearance */
+
+/* General header styling */
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #e9ecef;
+}
+
+header h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2.5rem;
+    color: #343a40;
+    margin: 0;
+}
+
+header p {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    color: #6c757d;
+    margin: 5px 0 0;
+}
+
+/* Navigation links styling */
+nav {
+    background-color: #ffffff;
+    border-top: 1px solid #e9ecef;
+    border-bottom: 1px solid #e9ecef;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
