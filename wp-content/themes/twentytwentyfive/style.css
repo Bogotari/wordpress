@@ -59,3 +59,9 @@ h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
 .more-link {
 	display: block;
 }
+
+/* Adjusting header padding for better spacing */
+.wp-block-template-part {
+    padding-top: var(--wp--preset--spacing--40); /* Increased from 30 to 40 */
+    padding-bottom: var(--wp--preset--spacing--40); /* Increased from 30 to 40 */
+}

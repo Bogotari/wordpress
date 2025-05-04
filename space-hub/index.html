@@ -51,49 +51,45 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 :root :where(.wp-block-site-title a:where(:not(.wp-element-button)):hover){text-decoration: underline;}
 :root :where(.wp-block-navigation){font-size: var(--wp--preset--font-size--medium);}
 :root :where(.wp-block-navigation a:where(:not(.wp-element-button))){text-decoration: none;}
-:root :where(.wp-block-navigation a:where(:not(.wp-element-button)):hover){text-decoration: underline;}</style>
-<style id="core-block-supports-inline-css">.wp-container-core-navigation-is-layout-fc306653{justify-content:flex-end;}.wp-container-core-group-is-layout-f4c28e8b{flex-wrap:nowrap;gap:var(--wp--preset--spacing--10);justify-content:flex-end;}.wp-container-core-group-is-layout-8165f36a{flex-wrap:nowrap;justify-content:space-between;}.wp-container-core-columns-is-layout-28f84493{flex-wrap:nowrap;}.wp-container-core-navigation-is-layout-fe9cc265{flex-direction:column;align-items:flex-start;}.wp-container-core-group-is-layout-570722b2{gap:var(--wp--preset--spacing--80);justify-content:space-between;align-items:flex-start;}.wp-container-core-group-is-layout-e5edad21{justify-content:space-between;align-items:flex-start;}.wp-container-core-group-is-layout-91e87306{gap:var(--wp--preset--spacing--20);justify-content:space-between;}</style>
-<style id="wp-block-template-skip-link-inline-css">.skip-link.screen-reader-text {
-			border: 0;
-			clip-path: inset(50%);
-			height: 1px;
-			margin: -1px;
-			overflow: hidden;
-			padding: 0;
-			position: absolute !important;
-			width: 1px;
-			word-wrap: normal !important;
-		}
+:root :where(.wp-block-navigation a:where(:not(.wp-element-button)):hover){text-decoration: underline;}
+/* Styling for the dropdown menu */
+.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
-		.skip-link.screen-reader-text:focus {
-			background-color: #eee;
-			clip-path: none;
-			color: #444;
-			display: block;
-			font-size: 1em;
-			height: auto;
-			left: 5px;
-			line-height: normal;
-			padding: 15px 23px 14px;
-			text-decoration: none;
-			top: 5px;
-			width: auto;
-			z-index: 100000;
-		}</style>
-<link rel="stylesheet" id="twentytwentyfive-style-css" href="/wp-content/themes/twentytwentyfive/style.css?ver=1.2" media="all">
-<link rel="https://api.w.org/" href="/wp-json/">
-<link rel="alternate" title="JSON" type="application/json" href="/wp-json/wp/v2/pages/9">
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
-<meta name="generator" content="WordPress 6.8.1">
-<link rel="canonical" href="/space-hub/">
-<link rel="shortlink" href="/?p=9">
-<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2F%2Fspace-hub%2F">
-<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2F%2Fspace-hub%2F#038;format=xml">
-<script type="importmap" id="wp-importmap">{"imports":{"@wordpress\/interactivity":"\/wp-includes\/js\/dist\/script-modules\/interactivity\/index.min.js?ver=55aebb6e0a16726baffb"}}</script>
-<script type="module" src="/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js?ver=61572d447d60c0aa5240" id="@wordpress/block-library/navigation/view-js-module"></script>
-<link rel="modulepreload" href="/wp-includes/js/dist/script-modules/interactivity/index.min.js?ver=55aebb6e0a16726baffb" id="@wordpress/interactivity-js-modulepreload">
-<style class="wp-fonts-local">@font-face{font-family:Manrope;font-style:normal;font-weight:200 800;font-display:fallback;src:url('/wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2') format('woff2');}
-@font-face{font-family:"Fira Code";font-style:normal;font-weight:300 700;font-display:fallback;src:url('/wp-content/themes/twentytwentyfive/assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2') format('woff2');}</style>
+.dropdown-menu > ul > li {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 15px;
+    display: block;
+}
+
+.dropdown-menu .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.dropdown-menu > ul > li:hover .submenu {
+    display: block;
+}
+
+.dropdown-menu .submenu li {
+    margin: 0;
+}
+</style>
 </head>
 
 <body class="wp-singular page-template-default page page-id-9 wp-embed-responsive wp-theme-twentytwentyfive">
@@ -122,6 +118,17 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 						</div>
 					</div>
 				</div></nav>
+				<nav class="dropdown-menu">
+					<ul>
+						<li><a href="/sample-page/">Sample Page</a></li>
+						<li><a href="/space-hub/">Space Hub</a>
+							<ul class="submenu">
+								<li><a href="/category/uncategorized/">Uncategorized</a></li>
+								<li><a href="/hello-world/">Hello World</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
 			</div>
 			
 		</div>
