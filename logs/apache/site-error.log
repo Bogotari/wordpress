@@ -1,0 +1,78 @@
+[Sun May 04 13:33:13.738485 2025] [fcgid:warn] [pid 2468:tid 1364] [client 127.0.0.1:52052] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/plugin-install.php?s=simply-static&tab=search&type=term
+[Sun May 04 13:33:13.739487 2025] [core:error] [pid 2468:tid 1364] [client 127.0.0.1:52052] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/plugin-install.php?s=simply-static&tab=search&type=term
+[Mon May 05 08:09:36.200633 2025] [fcgid:warn] [pid 2468:tid 1372] [client 127.0.0.1:57938] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/post-new.php
+[Mon May 05 08:09:36.214620 2025] [core:error] [pid 2468:tid 1372] [client 127.0.0.1:57938] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/post-new.php
+[Mon May 05 08:11:36.239556 2025] [fcgid:warn] [pid 2468:tid 1372] [client 127.0.0.1:58077] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/post-new.php
+[Mon May 05 08:11:36.239556 2025] [core:error] [pid 2468:tid 1372] [client 127.0.0.1:58077] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/post-new.php
+[Mon May 05 09:06:03.291116 2025] [fcgid:warn] [pid 2468:tid 1376] [client 127.0.0.1:58718] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/post-new.php
+[Mon May 05 09:06:03.292114 2025] [core:error] [pid 2468:tid 1376] [client 127.0.0.1:58718] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/post-new.php
+[Mon May 05 09:08:04.237934 2025] [fcgid:warn] [pid 2468:tid 1376] [client 127.0.0.1:58746] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/post-new.php
+[Mon May 05 09:08:04.237934 2025] [core:error] [pid 2468:tid 1376] [client 127.0.0.1:58746] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/post-new.php
+[Mon May 05 09:46:22.416262 2025] [fcgid:warn] [pid 2468:tid 1376] [client 127.0.0.1:59109] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/post-new.php
+[Mon May 05 09:46:22.416262 2025] [core:error] [pid 2468:tid 1376] [client 127.0.0.1:59109] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/post-new.php
+[Mon May 05 11:06:50.243341 2025] [fcgid:warn] [pid 2468:tid 1372] [client 127.0.0.1:60399] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/post.php?post=13&action=edit
+[Mon May 05 11:06:50.244338 2025] [core:error] [pid 2468:tid 1372] [client 127.0.0.1:60399] End of script output before headers: index.php, referer: http://newlocalwpsite.local/wp-admin/post.php?post=13&action=edit
+[Mon May 05 11:06:53.746076 2025] [fcgid:warn] [pid 2468:tid 1376] [client 127.0.0.1:60403] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/post.php?post=13&action=edit
+[Mon May 05 11:06:53.870879 2025] [core:error] [pid 2468:tid 1376] [client 127.0.0.1:60403] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/post.php?post=13&action=edit
+[Mon May 05 11:31:26.034387 2025] [fcgid:warn] [pid 2468:tid 1368] [client 127.0.0.1:62158] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/edit.php
+[Mon May 05 11:31:26.034387 2025] [core:error] [pid 2468:tid 1368] [client 127.0.0.1:62158] End of script output before headers: post.php, referer: http://newlocalwpsite.local/wp-admin/edit.php
+[Mon May 05 12:54:36.901651 2025] [fcgid:warn] [pid 2468:tid 1356] [client 127.0.0.1:51145] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/post.php?post=13&action=edit
+[Mon May 05 12:54:36.902638 2025] [core:error] [pid 2468:tid 1356] [client 127.0.0.1:51145] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/post.php?post=13&action=edit
+[Mon May 05 13:19:55.352141 2025] [fcgid:warn] [pid 2468:tid 1364] (OS 109)Ha terminado la canalización.  : [client 127.0.0.1:52586] mod_fcgid: get overlap result error
+[Mon May 05 13:19:55.368118 2025] [fcgid:warn] [pid 2468:tid 1364] (OS 109)Ha terminado la canalización.  : [client 127.0.0.1:52586] mod_fcgid: ap_pass_brigade failed in handle_request_ipc function
+[Mon May 05 15:28:29.526585 2025] [fcgid:warn] [pid 26796:tid 1372] [client 127.0.0.1:61646] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:28:29.527584 2025] [core:error] [pid 26796:tid 1372] [client 127.0.0.1:61646] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:30:34.477152 2025] [fcgid:warn] [pid 26796:tid 1372] [client 127.0.0.1:61910] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:30:34.477152 2025] [core:error] [pid 26796:tid 1372] [client 127.0.0.1:61910] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:31:39.806063 2025] [fcgid:warn] [pid 26796:tid 1372] [client 127.0.0.1:62029] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:31:39.807067 2025] [core:error] [pid 26796:tid 1372] [client 127.0.0.1:62029] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:33:34.631577 2025] [fcgid:warn] [pid 26796:tid 1372] [client 127.0.0.1:62241] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:33:34.632579 2025] [core:error] [pid 26796:tid 1372] [client 127.0.0.1:62241] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:34:44.923624 2025] [fcgid:warn] [pid 26796:tid 1372] [client 127.0.0.1:62343] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:34:44.923624 2025] [core:error] [pid 26796:tid 1372] [client 127.0.0.1:62343] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:35:42.776426 2025] [fcgid:warn] [pid 26796:tid 1372] [client 127.0.0.1:62448] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:35:42.796398 2025] [core:error] [pid 26796:tid 1372] [client 127.0.0.1:62448] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:37:32.725607 2025] [fcgid:warn] [pid 26796:tid 1372] [client 127.0.0.1:62598] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:37:32.726607 2025] [core:error] [pid 26796:tid 1372] [client 127.0.0.1:62598] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:38:38.943687 2025] [fcgid:warn] [pid 26796:tid 1372] [client 127.0.0.1:62718] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:38:38.944697 2025] [core:error] [pid 26796:tid 1372] [client 127.0.0.1:62718] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:40:39.131571 2025] [fcgid:warn] [pid 26796:tid 1372] [client 127.0.0.1:62864] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:40:39.144541 2025] [core:error] [pid 26796:tid 1372] [client 127.0.0.1:62864] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:42:47.770926 2025] [fcgid:warn] [pid 26796:tid 1372] [client 127.0.0.1:63026] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:42:47.770926 2025] [core:error] [pid 26796:tid 1372] [client 127.0.0.1:63026] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:44:36.929908 2025] [fcgid:warn] [pid 26796:tid 1372] [client 127.0.0.1:63146] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:44:36.929908 2025] [core:error] [pid 26796:tid 1372] [client 127.0.0.1:63146] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:46:37.379537 2025] [fcgid:warn] [pid 26796:tid 1372] [client 127.0.0.1:63292] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:46:37.381536 2025] [core:error] [pid 26796:tid 1372] [client 127.0.0.1:63292] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:48:09.116311 2025] [fcgid:warn] [pid 26796:tid 1372] [client 127.0.0.1:63485] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:48:09.125300 2025] [core:error] [pid 26796:tid 1372] [client 127.0.0.1:63485] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:50:28.765225 2025] [fcgid:warn] [pid 26796:tid 1372] [client 127.0.0.1:63764] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:50:28.765225 2025] [core:error] [pid 26796:tid 1372] [client 127.0.0.1:63764] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:55:07.342228 2025] [fcgid:warn] [pid 26796:tid 1372] [client 127.0.0.1:64069] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:55:07.343232 2025] [core:error] [pid 26796:tid 1372] [client 127.0.0.1:64069] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:56:05.769757 2025] [fcgid:warn] [pid 26796:tid 1372] [client 127.0.0.1:64136] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:56:05.770736 2025] [core:error] [pid 26796:tid 1372] [client 127.0.0.1:64136] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:57:34.686496 2025] [fcgid:warn] [pid 26796:tid 1372] [client 127.0.0.1:64335] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:57:34.686496 2025] [core:error] [pid 26796:tid 1372] [client 127.0.0.1:64335] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:59:29.612834 2025] [fcgid:warn] [pid 26796:tid 1372] [client 127.0.0.1:64625] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 15:59:29.612834 2025] [core:error] [pid 26796:tid 1372] [client 127.0.0.1:64625] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 16:00:53.062397 2025] [fcgid:warn] [pid 26796:tid 1372] [client 127.0.0.1:64797] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 16:00:53.064409 2025] [core:error] [pid 26796:tid 1372] [client 127.0.0.1:64797] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 17:04:47.368866 2025] [fcgid:warn] [pid 26796:tid 1372] [client 127.0.0.1:50595] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 17:04:47.370864 2025] [core:error] [pid 26796:tid 1372] [client 127.0.0.1:50595] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 17:06:51.087966 2025] [fcgid:warn] [pid 26796:tid 1372] [client 127.0.0.1:50727] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 17:06:51.089184 2025] [core:error] [pid 26796:tid 1372] [client 127.0.0.1:50727] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 17:33:16.645837 2025] [fcgid:warn] [pid 26796:tid 1384] [client 127.0.0.1:51962] mod_fcgid: read timeout from pipe, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 17:33:16.646833 2025] [core:error] [pid 26796:tid 1384] [client 127.0.0.1:51962] End of script output before headers: admin-ajax.php, referer: http://newlocalwpsite.local/wp-admin/themes.php
+[Mon May 05 18:42:43.697268 2025] [fcgid:warn] [pid 26796:tid 1384] [client 127.0.0.1:55923] mod_fcgid: read timeout from pipe, referer: http://live/wp-admin/
+[Mon May 05 18:42:43.707271 2025] [core:error] [pid 26796:tid 1384] [client 127.0.0.1:55923] End of script output before headers: admin-ajax.php, referer: http://live/wp-admin/
+[Mon May 05 18:45:21.816110 2025] [fcgid:warn] [pid 26796:tid 1384] [client 127.0.0.1:56276] mod_fcgid: read timeout from pipe, referer: http://live/wp-admin/
+[Mon May 05 18:45:21.816110 2025] [core:error] [pid 26796:tid 1384] [client 127.0.0.1:56276] End of script output before headers: admin-ajax.php, referer: http://live/wp-admin/
+[Mon May 05 18:46:22.155362 2025] [fcgid:warn] [pid 26796:tid 1384] [client 127.0.0.1:56433] mod_fcgid: read timeout from pipe, referer: http://live/wp-admin/
+[Mon May 05 18:46:22.156362 2025] [core:error] [pid 26796:tid 1384] [client 127.0.0.1:56433] End of script output before headers: admin-ajax.php, referer: http://live/wp-admin/
+[Mon May 05 18:48:17.172468 2025] [fcgid:warn] [pid 26796:tid 1304] [client 127.0.0.1:56620] mod_fcgid: read timeout from pipe, referer: http://live/wp-admin/
+[Mon May 05 18:48:17.173465 2025] [fcgid:warn] [pid 26796:tid 1304] (138)timed out: [client 127.0.0.1:56620] mod_fcgid: ap_pass_brigade failed in handle_request_ipc function, referer: http://live/wp-admin/
+[Mon May 05 19:56:13.469654 2025] [fcgid:warn] [pid 26796:tid 1384] [client 127.0.0.1:59693] mod_fcgid: read timeout from pipe, referer: http://live/wp-admin/index.php
+[Mon May 05 19:56:13.470651 2025] [core:error] [pid 26796:tid 1384] [client 127.0.0.1:59693] End of script output before headers: admin-ajax.php, referer: http://live/wp-admin/index.php
+[Mon May 05 19:56:16.215065 2025] [fcgid:warn] [pid 26796:tid 1372] [client 127.0.0.1:59697] mod_fcgid: read timeout from pipe, referer: http://live/wp-admin/index.php
+[Mon May 05 19:56:16.215065 2025] [core:error] [pid 26796:tid 1372] [client 127.0.0.1:59697] End of script output before headers: admin-ajax.php, referer: http://live/wp-admin/index.php
